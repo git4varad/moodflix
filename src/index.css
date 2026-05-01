@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-netflix-black text-white antialiased min-h-screen;
+}
+
+/* Hide scrollbar for horizontal rows (still scrollable) */
+.row-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.row-scroll::-webkit-scrollbar-thumb {
+  @apply bg-zinc-700 rounded-full;
+}
