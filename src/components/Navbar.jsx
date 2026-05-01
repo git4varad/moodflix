@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-gradient-to-b from-black/90 to-transparent px-4 sm:px-8 py-4 flex flex-wrap items-center gap-4">
       <Link to="/" className="text-2xl font-bold text-netflix-red tracking-tight">
-        MoodFlix
+        moodcinema
       </Link>
       {showSearch ? (
         <form onSubmit={onSearch} className="ml-auto flex flex-1 max-w-md min-w-[200px]">
